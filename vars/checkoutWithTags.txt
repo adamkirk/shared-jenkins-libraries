@@ -1,0 +1,13 @@
+usage: `checkoutWithTags()`
+
+arguments: nil
+
+Summary:
+
+Provides an alternative to the default `checkout scm` in jenkins pipelines.
+The default behaviour is to checkout the branch without any tags. This 
+causes issues when defining build artifact names. They should use the tag,
+but can't without them being fetched in git.
+
+This should be used in any case where tags are a necessity for the success
+of the pipeline.
