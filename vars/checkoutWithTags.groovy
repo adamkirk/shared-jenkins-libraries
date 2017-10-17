@@ -1,5 +1,4 @@
 def call() {
-    // Git-plugin 3.4.0 workaround for https://issues.jenkins-ci.org/browse/JENKINS-45164
     checkout([
         $class: 'GitSCM',
         branches: scm.branches,

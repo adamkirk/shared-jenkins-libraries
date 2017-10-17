@@ -11,3 +11,6 @@ but can't without them being fetched in git.
 
 This should be used in any case where tags are a necessity for the success
 of the pipeline.
+
+This issue highlights the need for this script: 
+https://issues.jenkins-ci.org/browse/JENKINS-45164.
